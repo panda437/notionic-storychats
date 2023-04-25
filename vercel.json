@@ -39,14 +39,6 @@
       ]
     },
     {
-      "rewrites": [
-        {"source": "/blog/", "destination": "https://notionic-storychats.vercel.app/"},
-        {"source": "/blog/:match*", "destination": "https://notionic-storychats.vercel.app/:match*"},
-        {"source": "/", "destination": "https://book-manager-eta.vercel.app/"},
-        {"source": "/:match*", "destination": "https://book-manager-eta.vercel.app/:match*"}
-      ]
-    },
-    {
       "source": "/favicon.ico",
       "headers": [
         {
@@ -55,5 +47,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {"source": "/blog/", "destination": "https://notionic-storychats.vercel.app/"},
+    {"source": "/blog/:match*", "destination": "https://notionic-storychats.vercel.app/:match*"},
+    {"source": "/", "destination": "https://book-manager-eta.vercel.app/"},
+    {"source": "/:match*", "destination": "https://book-manager-eta.vercel.app/:match*"}
   ]
 }
