@@ -11,7 +11,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/blog/:path*{/}?',
+        source: '/:path*{/}?',
         headers: [
           {
             key: 'Permissions-Policy',
