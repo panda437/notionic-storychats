@@ -29,9 +29,9 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/asifkabeer',
+    github: 'https://github.com/panda437',
+    telegram: 'https://t.me/asifkabeer'
   },
   seo: {
     keywords: ['Notionic', 'Zuolan', 'Blog'],
@@ -40,7 +40,7 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'asifkabeer.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
